@@ -299,3 +299,34 @@ header {
 
 }
 /* newsletter section ends here */
+
+/* footer design starts here */
+footer {
+    background: #070211;
+    padding: 120px 8.75%;
+    text-align: center;
+}
+
+.foot-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot {
+   
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 40px;
+}
+
+footer hr {
+    margin:50px 0;
+}
+
+.icon-container .icon {
+    margin: 0 12px;
+}
