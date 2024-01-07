@@ -236,3 +236,32 @@ header {
 
 
 /* holiday section design end here */
+
+/* portfolio section design starts here */
+.portfolio-text{
+    max-width: 68%;
+}
+
+.gift{
+    color: #F00;
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.galary-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio-img{
+    width: 32%;
+}
+
+.portfolio > .galary-container {
+    margin-bottom: 24px;
+}
+/* portfolio section end here */
+
+/* newsletter section design starts here */
