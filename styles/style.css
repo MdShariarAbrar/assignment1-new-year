@@ -19,7 +19,7 @@ header {
 
 .banner-container{
     text-align: center;
-    font-family: 'Merriweather', serif;
+    font-family: Merriweather, serif;
     color: #FFF;
     position: absolute;
     max-width: 632px;
@@ -41,3 +41,102 @@ header {
     line-height: 95px;
 }
 /* banner design end  */
+
+/* main section design start */
+.main-container {
+    max-width: 82.5%;
+    margin: 120px auto;
+}
+
+/* discoun section design starts */
+.discount{
+    text-align: center;
+    font-family: Inter, sans-serif;
+}
+
+.discount-rate {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.discount-para {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.discount-category {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.discount-img {
+    width: 803px;
+    height: 500px;
+    margin-bottom: 120px;
+}
+/* discount section end */
+
+/* party section starts */
+.party {
+    position: relative;
+}
+
+.party-img {
+    width: 100%;
+    filter: brightness(80%);
+}
+
+.party-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10.5% 0 9.5%;
+    position: absolute;
+    top: 9.5%;
+    bottom: 10.5%;
+}
+
+.party-text {
+    max-width: 52%;
+    
+    
+}
+
+.party-title {
+    color: #FFF;
+    font-family: Merriweather, serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7px;
+}
+
+.party-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+.party-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter, sans-serif ;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 32px;
+    border: 0;
+    background: none;
+}
+
+.ball-img {
+    width: 320px;
+    height: 465px;
+}
