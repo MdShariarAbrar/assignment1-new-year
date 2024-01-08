@@ -286,8 +286,8 @@ header {
 }
 .shop-lady {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 0%;
+    top: 0%;
 
 }
 
@@ -322,6 +322,12 @@ header {
 
 .portfolio-img{
     width: 32%;
+}
+
+.portfolio-img:hover {
+    width: 34%;
+    border-radius: 16px;
+    box-shadow: 2px 3px 20px 5px #07021133;
 }
 
 .portfolio > .galary-container {
