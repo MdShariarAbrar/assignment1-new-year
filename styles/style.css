@@ -232,9 +232,71 @@ header {
 /* offer section design end here */
 
 /* holiday section design starts here */
+.holiday{
+    margin-top: 120px;
+}
 
+.holiday-text {
+    text-align: center;
+}
 
+.holiday-para {
+    color: #070211;
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
 
+.holiday-title {
+    color: #070211;
+    font-family: Merriweather, serif;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 28px 0;
+}
+
+.holiday-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 64px;
+
+    
+}
+
+.holiday-img-box {
+    height: 650px;
+    width: 100%;
+    position: relative;
+}
+
+.squre {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.dis-50 {
+    position: absolute;
+    right: 23%;
+    top: 85px;
+    z-index: 5;
+}
+.shop-lady {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+.gift-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
 /* holiday section design end here */
 
 /* portfolio section design starts here */
